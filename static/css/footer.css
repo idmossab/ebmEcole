@@ -1,0 +1,77 @@
+/* Footer Styling */
+
+footer {
+    background-color: #343a40;
+    /* Dark background */
+    color: white;
+    padding: 40px 0;
+}
+
+footer h5 {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+footer p,
+footer .form-control {
+    font-size: 0.9rem;
+    color: #ddd;
+    /* Lighter text color */
+}
+
+footer .form-control {
+    border-radius: 0.25rem;
+    border: 1px solid #ddd;
+}
+
+footer .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    font-size: 1rem;
+    padding: 10px;
+}
+
+footer .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+footer .text-center a {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+footer .img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Spacing for input fields */
+
+footer .mb-2 {
+    margin-bottom: 1.5rem;
+}
+
+
+/* Make map image responsive */
+
+footer .col-md-4 img {
+    max-height: 80px;
+    object-fit: cover;
+}
+
+
+/* Responsive adjustments */
+
+@media (max-width: 767px) {
+    footer .row {
+        text-align: center;
+    }
+    footer .col-md-4 {
+        margin-bottom: 20px;
+    }
+    footer .form-control {
+        font-size: 1rem;
+    }
+}
